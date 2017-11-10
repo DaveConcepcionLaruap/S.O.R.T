@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: 3297fe9bc66eda9409ec55e6be6261c3
+timeCreated: 1502706581
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Aegis_Standing_0
+    21300002: Aegis_Standing_1
+    21300004: Aegis_Standing_2
+    21300006: Aegis_Standing_3
+    21300008: Aegis_Standing_4
+    21300010: Aegis_Standing_5
+    21300012: Aegis_Standing_6
+    21300014: Aegis_Standing_7
+    21300016: Aegis_Standing_8
+    21300018: Aegis_Standing_9
+    21300020: Aegis_Standing_10
+    21300022: Aegis_Standing_11
+    21300024: Aegis_Standing_12
+    21300026: Aegis_Standing_13
+    21300028: Aegis_Standing_14
+    21300030: Aegis_Standing_15
+    21300032: Aegis_Standing_16
+    21300034: Aegis_Standing_17
+    21300036: Aegis_Standing_18
+    21300038: Aegis_Standing_19
+    21300040: Aegis_Standing_20
+    21300042: Aegis_Standing_21
+    21300044: Aegis_Standing_22
+    21300046: Aegis_Standing_23
+    21300048: Aegis_Standing_24
+    21300050: Aegis_Standing_25
+    21300052: Aegis_Standing_26
+    21300054: Aegis_Standing_27
+    21300056: Aegis_Standing_28
+    21300058: Aegis_Standing_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aegis_Standing_0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3255
+        width: 336
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_1
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3255
+        width: 336
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_2
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 3255
+        width: 336
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_3
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 3255
+        width: 336
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_4
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3255
+        width: 338
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_5
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 3255
+        width: 338
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2463
+        width: 338
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_7
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2464
+        width: 340
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_8
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 2464
+        width: 339
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_9
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 2464
+        width: 340
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_10
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 2464
+        width: 339
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_11
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 2464
+        width: 340
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1672
+        width: 338
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_13
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1673
+        width: 337
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_14
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1674
+        width: 336
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_15
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1673
+        width: 335
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_16
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 1672
+        width: 336
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_17
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 1672
+        width: 334
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 881
+        width: 334
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_19
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 881
+        width: 334
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_20
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 880
+        width: 334
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_21
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 879
+        width: 334
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_22
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 879
+        width: 334
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_23
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 879
+        width: 334
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_24
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 87
+        width: 336
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_25
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 86
+        width: 334
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_26
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 86
+        width: 336
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_27
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 86
+        width: 336
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_28
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 86
+        width: 336
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_Standing_29
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 86
+        width: 336
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

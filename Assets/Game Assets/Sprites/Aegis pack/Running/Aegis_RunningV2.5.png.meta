@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: e423ec1ba80eb7a4da8301356fce18bb
+timeCreated: 1502702382
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Aegis_RunningV2.5_0
+    21300002: Aegis_RunningV2.5_1
+    21300004: Aegis_RunningV2.5_2
+    21300006: Aegis_RunningV2.5_3
+    21300008: Aegis_RunningV2.5_4
+    21300010: Aegis_RunningV2.5_5
+    21300012: Aegis_RunningV2.5_6
+    21300014: Aegis_RunningV2.5_7
+    21300016: Aegis_RunningV2.5_8
+    21300018: Aegis_RunningV2.5_9
+    21300020: Aegis_RunningV2.5_10
+    21300022: Aegis_RunningV2.5_11
+    21300024: Aegis_RunningV2.5_12
+    21300026: Aegis_RunningV2.5_13
+    21300028: Aegis_RunningV2.5_14
+    21300030: Aegis_RunningV2.5_15
+    21300032: Aegis_RunningV2.5_16
+    21300034: Aegis_RunningV2.5_17
+    21300036: Aegis_RunningV2.5_18
+    21300038: Aegis_RunningV2.5_19
+    21300040: Aegis_RunningV2.5_20
+    21300042: Aegis_RunningV2.5_21
+    21300044: Aegis_RunningV2.5_22
+    21300046: Aegis_RunningV2.5_23
+    21300048: Aegis_RunningV2.5_24
+    21300050: Aegis_RunningV2.5_25
+    21300052: Aegis_RunningV2.5_26
+    21300054: Aegis_RunningV2.5_27
+    21300056: Aegis_RunningV2.5_28
+    21300058: Aegis_RunningV2.5_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3263
+        width: 328
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_1
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 3255
+        width: 320
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_2
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 3248
+        width: 315
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_3
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 3245
+        width: 316
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_4
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 3244
+        width: 314
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_5
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 3244
+        width: 315
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2451
+        width: 315
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_7
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2453
+        width: 315
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_8
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2455
+        width: 315
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_9
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 2457
+        width: 315
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_10
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 2461
+        width: 318
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_11
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 2464
+        width: 319
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1676
+        width: 318
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_13
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1681
+        width: 319
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_14
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1689
+        width: 319
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_15
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1685
+        width: 319
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_16
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 1677
+        width: 319
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_17
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 1670
+        width: 319
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 874
+        width: 317
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_19
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 873
+        width: 317
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_20
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 871
+        width: 315
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_21
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 871
+        width: 315
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_22
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 871
+        width: 315
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_23
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 871
+        width: 315
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 80
+        width: 315
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_25
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 82
+        width: 314
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_26
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 84
+        width: 314
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_27
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 88
+        width: 316
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_28
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 92
+        width: 316
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Aegis_RunningV2.5_29
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 96
+        width: 322
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
