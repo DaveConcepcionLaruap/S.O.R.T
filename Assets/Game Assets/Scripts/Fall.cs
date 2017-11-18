@@ -5,6 +5,7 @@ using UnityEngine;
 public class Fall : MonoBehaviour {
 	public float delay = 0.5f; 
 	public GameObject coinGold;
+    public int hit;
 
 	// Use this for initialization
 	void Start () {

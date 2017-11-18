@@ -6,13 +6,15 @@ public class CoinPickUp : MonoBehaviour {
 
 	public int hit = 0 ;
 
-	void OnTriggerEnter2D (Collider2D other)
-	{
-		if (other.GetComponent<Player1Control> () == null)
-			return;
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Player"){
+            hit ++;
+            Destroy(gameObject);
+            Debug.Log("HIT = " + hit);
+        }
 
-		hit += 1;
-		Destroy (gameObject);
-	}
+
+    }
 
 }
