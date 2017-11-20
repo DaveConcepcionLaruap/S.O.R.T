@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{539FD540-4DF5-2CE1-D3D1-6EBDE74810C0}</ProjectGuid>
+    <ProjectGuid>{CE01DE34-EBF0-488B-1029-AB1DCDD355A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,10 +52,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Game Assets\Scripts\CoinPickUp.cs" />
+     <Compile Include="Assets\Game Assets\Scripts\DestroyCoin.cs" />
      <Compile Include="Assets\Game Assets\Scripts\DestroyCoinOnGround.cs" />
      <Compile Include="Assets\Game Assets\Scripts\Fall.cs" />
      <Compile Include="Assets\Game Assets\Scripts\Player1Control.cs" />
-     <Compile Include="Assets\Game Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ChangeColor.cs" />
@@ -70,25 +70,9 @@
      <Compile Include="Assets\Menu Assets\Scripts\SelectOnInput.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\TiltWindow.cs" />
-     <None Include="Assets\Game Assets\Sprites\Extra animations and enemies\Spritesheets\alienGreen.xml" />
-     <None Include="Assets\Game Assets\Sprites\Extra animations and enemies\Spritesheets\alienBlue.xml" />
-     <None Include="Assets\Game Assets\Sprites\Extra animations and enemies\Spritesheets\alienBeige.xml" />
-     <None Include="Assets\Game Assets\Sprites\Extra animations and enemies\Spritesheets\alienPink.xml" />
-     <None Include="Assets\Game Assets\Sprites\Extra animations and enemies\Spritesheets\aliens.xml" />
-     <None Include="Assets\Game Assets\Sprites\Base pack\Player\p1_spritesheet.txt" />
      <None Include="Assets\Menu Assets\Fonts\Jupiter\LICENSE.txt" />
-     <None Include="Assets\Game Assets\Sprites\license.txt" />
-     <None Include="Assets\Game Assets\Sprites\Extra animations and enemies\Spritesheets\alienYellow.xml" />
      <None Include="Assets\Menu Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
-     <None Include="Assets\Game Assets\Sprites\Base pack\Tiles\tiles_spritesheet.xml" />
-     <None Include="Assets\Game Assets\Sprites\Base pack\Player\p2_spritesheet.txt" />
-     <None Include="Assets\Game Assets\Sprites\Base pack\Enemies\enemies_spritesheet.txt" />
      <None Include="Assets\Menu Assets\Materials\UI-Default-No-Alpha.shader" />
-     <None Include="Assets\Game Assets\Sprites\Base pack\HUD\hud_spritesheet.xml" />
-     <None Include="Assets\Game Assets\Sprites\Base pack\Player\p3_spritesheet.txt" />
-     <None Include="Assets\Game Assets\Sprites\Extra animations and enemies\Spritesheets\enemies.xml" />
-     <None Include="Assets\Game Assets\Sprites\Base pack\Items\items_spritesheet.xml" />
-     <None Include="Assets\Game Assets\Sprites\Mushroom expansion\PNG\spritesheet.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
