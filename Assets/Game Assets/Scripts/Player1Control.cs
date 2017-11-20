@@ -8,12 +8,11 @@ public class Player1Control : MonoBehaviour {
 	public bool FR;
 	public bool FL;
 
-	public int bio;
-
 	public Transform groundCheck;
 	public float groundCheckRadius;
 	public LayerMask whatIsGround;
 	private bool grounded;
+	public bool t1, t2, t3;
 
 
 	private Animator anim;
@@ -22,7 +21,10 @@ public class Player1Control : MonoBehaviour {
 	void Start () {
 		FR = false;
 		FL = true;
-		bio = 1; 
+		t1 = true;
+		t2 = false; 
+		t3 = false;
+
 		anim = GetComponent<Animator> ();
 	}
 
@@ -53,8 +55,18 @@ public class Player1Control : MonoBehaviour {
 			jump();
 		}
 		*/
-		if (Input.GetKey(KeyCode.Space)){
-			bio *= -1;
+		if (Input.GetKey(KeyCode.A)){
+			t1 = true;
+			t2 = false;
+			t3 = false;
+		}else if (Input.GetKey(KeyCode.S)){
+			t1 = false;
+			t2 = true;
+			t3 = false;
+		}else if(Input.GetKey(KeyCode.D)){
+			t1 = false;
+			t2 = false;
+			t3 = true;
 		}
 
 
