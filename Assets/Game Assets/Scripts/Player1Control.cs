@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class Player1Control : MonoBehaviour {
 	public float speed = 20.0f;
@@ -10,11 +11,8 @@ public class Player1Control : MonoBehaviour {
 
 	public int bio;
 
-	public Transform groundCheck;
-	public float groundCheckRadius;
-	public LayerMask whatIsGround;
-	private bool grounded;
-
+	public float directionX;
+	Rigidbody2D rb;
 
 	private Animator anim;
 
@@ -25,11 +23,7 @@ public class Player1Control : MonoBehaviour {
 		bio = 1; 
 		anim = GetComponent<Animator> ();
 	}
-
-
-	void FixedUpdate() {
-		grounded = Physics2D.OverlapCircle (groundCheck.position, groundCheckRadius, whatIsGround);
-	}
+		
 		
 	void Update () {
 		idle = true;
@@ -46,16 +40,10 @@ public class Player1Control : MonoBehaviour {
 
 	}
 		 
+	public void movement(){
 
-	void movement(){
-
-		/*if (Input.GetKey(KeyCode.UpArrow) && grounded){
-			jump();
-		}
-		*/
-		if (Input.GetKey(KeyCode.Space)){
-			bio *= -1;
-		}
+		directionX = CrossPlatformInputManager.GetAxis ("Horizontal");
+		GetComponent<Rigidbody2D> ().velocity = new Vector2 (directionX * speed, GetComponent<Rigidbody2D> ().velocity.y);
 
 
 		if (Input.GetKey(KeyCode.RightArrow)){
