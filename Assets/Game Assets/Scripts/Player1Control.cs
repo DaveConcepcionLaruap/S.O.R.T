@@ -30,7 +30,7 @@ public class Player1Control : MonoBehaviour {
 		idle = true;
 		movement ();
 		anim.SetFloat ("Speed", Mathf.Abs(GetComponent<Rigidbody2D> ().velocity.x));
-		if (FR) {
+		if (directionX > 0) {
 			//transform.localRotation.x *=-1f;
 			transform.localScale = new Vector2 (-0.6237f, 0.4803f);
 		} else {
@@ -45,7 +45,7 @@ public class Player1Control : MonoBehaviour {
 	void movement(){
 
 		directionX = CrossPlatformInputManager.GetAxis ("Horizontal");
-		rb.velocity = new Vector2 (directionX * (speed*20), 0);
+		rb.velocity = new Vector2 (directionX * (speed*10), 0);
 
 		if (Input.GetKey(KeyCode.Space)){
 			bio *= -1;
