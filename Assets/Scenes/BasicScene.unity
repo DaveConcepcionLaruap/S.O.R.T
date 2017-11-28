@@ -465,7 +465,6 @@ GameObject:
   - component: {fileID: 648410893}
   - component: {fileID: 648410892}
   - component: {fileID: 648410894}
-  - component: {fileID: 648410891}
   - component: {fileID: 648410895}
   m_Layer: 0
   m_Name: coinGold
@@ -474,18 +473,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &648410891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 648410890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 014bfe7b11e16264ea6ea149dc4bca92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hit: 0
 --- !u!212 &648410892
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -592,7 +579,7 @@ GameObject:
   - component: {fileID: 656054517}
   m_Layer: 0
   m_Name: residual
-  m_TagString: Gold
+  m_TagString: Residual
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -641,7 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 014bfe7b11e16264ea6ea149dc4bca92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hit: 0
+  score: 0
 --- !u!58 &656054519
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -714,6 +701,7 @@ GameObject:
   - component: {fileID: 765937413}
   - component: {fileID: 765937414}
   - component: {fileID: 765937412}
+  - component: {fileID: 765937416}
   m_Layer: 0
   m_Name: Aegis_Standing_0
   m_TagString: Player
@@ -859,6 +847,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &765937416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 765937409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014bfe7b11e16264ea6ea149dc4bca92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
 --- !u!1 &860705181
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,7 +1281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59bcbdb19acb97b45ab1f52298ea409d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 648410890}
 --- !u!50 &963671199
 Rigidbody2D:
   serializedVersion: 4
@@ -1451,7 +1450,7 @@ GameObject:
   - component: {fileID: 1737991263}
   m_Layer: 0
   m_Name: recyclable
-  m_TagString: Gold
+  m_TagString: Recyclable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1500,7 +1499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 014bfe7b11e16264ea6ea149dc4bca92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hit: 0
+  score: 0
 --- !u!58 &1737991265
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class DestroyCoinOnGround : MonoBehaviour {
 
-    public GameObject coin;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Goodbye");
-        if (other.gameObject.tag == "Gold")
-        {
+        
+        if (other.gameObject.tag == "Gold"){
+            Debug.Log("Gold destroyed");
+            Destroy(other.gameObject);
+        }else if (other.gameObject.tag == "Recyclable"){
+            Debug.Log("Recyclable destroyed");
+            Destroy(other.gameObject);
+        }else if (other.gameObject.tag == "Residual"){
+            Debug.Log("Recyclable destroyed");
             Destroy(other.gameObject);
         }
     }

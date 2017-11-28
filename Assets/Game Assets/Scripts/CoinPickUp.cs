@@ -4,14 +4,22 @@ using UnityEngine;
 
 public class CoinPickUp : MonoBehaviour {
 
-	public int hit = 0 ;
+	public int score = 0;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Player"){
-            hit ++;
-            Destroy(gameObject);
-            Debug.Log("HIT = " + hit);
+        if(other.gameObject.tag == "Gold"){
+            score++;
+            Destroy(other.gameObject);
+            Debug.Log("Coin picked up, Score = " + score);
+        }else if (other.gameObject.tag == "Recyclable"){
+            score++;
+            Destroy(other.gameObject);
+            Debug.Log("Recyclable picked up, Score = " + score);
+        }else if (other.gameObject.tag == "Residual"){
+            score++;
+            Destroy(other.gameObject);
+            Debug.Log("Residual picked up, Score = " + score);
         }
 
 
