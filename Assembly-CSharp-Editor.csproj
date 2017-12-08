@@ -51,8 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Menu Assets\Area730\UpdateManager\Editor\SimpleJSON.cs" />
-     <Compile Include="Assets\Menu Assets\Area730\UpdateManager\Editor\UpdatesWindow.cs" />
+     <Compile Include="Assets\Area730\UpdateManager\Editor\SimpleJSON.cs" />
+     <Compile Include="Assets\Area730\UpdateManager\Editor\UpdatesWindow.cs" />
      <None Include="Assets\Menu Assets\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Game Assets\Sprites\Enemies\enemies_spritesheet.txt" />
      <None Include="Assets\Menu Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
