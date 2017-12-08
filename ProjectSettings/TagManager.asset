@@ -9,6 +9,8 @@ TagManager:
   - Residual
   - Recyclable
   - Border
+  - Power
+  - Monster
   layers:
   - Default
   - TransparentFX

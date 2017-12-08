@@ -61,6 +61,7 @@
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueTrigger.cs" />
+     <Compile Include="Assets\Life.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ChangeColor.cs" />

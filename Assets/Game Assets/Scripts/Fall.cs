@@ -15,6 +15,7 @@ public class Fall : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		StartCoroutine (Spawn ());
+		StopCoroutine (Spawn ());
 	}
 
 	// Update is called once per frame
@@ -38,6 +39,7 @@ public class Fall : MonoBehaviour {
 			int random = Random.Range (1, 4);
 			yield return new WaitForSeconds (random);
 		}
+
     }
 
 }

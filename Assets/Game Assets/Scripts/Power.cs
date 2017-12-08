@@ -27,11 +27,11 @@ public class Power : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.gameObject.tag == "Border")
-        {
-            Debug.Log("Power destroyed");
-            Destroy(gameObject);
-        }
-
+		if (other.gameObject.tag == "Border") {
+			Debug.Log ("Power destroyed");
+			Destroy (gameObject);
+		} else if (other.gameObject.tag == "Monster") {
+			Destroy (gameObject);
+		}
     }
 }

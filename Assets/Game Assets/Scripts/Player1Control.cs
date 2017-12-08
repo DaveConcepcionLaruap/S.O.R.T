@@ -53,10 +53,10 @@ public class Player1Control : MonoBehaviour {
         anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
         if (FR) {
             //transform.localRotation.x *=-1f;
-            transform.localScale = new Vector2(-0.6237f, 0.4803f);
+			transform.localScale = new Vector2(-0.4100432f, 0.3015158f);
         } else {
             //transform.localRotation.x *=1f;
-            transform.localScale = new Vector2(0.6237f, 0.4803f);
+			transform.localScale = new Vector2(0.4100432f, 0.3015158f);
         }
 
 
@@ -76,8 +76,9 @@ public class Player1Control : MonoBehaviour {
             }else{
                 Debug.Log("Please collect more, no more load to fire");
 
-
             }
+
+
             pickup.updateLoad();
                 
         }

@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 200371532}
   m_Layer: 0
   m_Name: Power
-  m_TagString: Untagged
+  m_TagString: Power
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,7 +247,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -296,7 +296,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c405de56b7a84344c89242d95793d7bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -402,7 +402,7 @@ RectTransform:
   m_GameObject: {fileID: 420193996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.1625028, y: 1.4436555, z: 90.00448}
-  m_LocalScale: {x: 0.03266084, y: 0.03266084, z: 0.03266084}
+  m_LocalScale: {x: 0.031264413, y: 0.031264413, z: 0.031264413}
   m_Children:
   - {fileID: 1894245016}
   - {fileID: 860705182}
@@ -963,8 +963,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 765937409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.06, y: -2.32, z: 0}
-  m_LocalScale: {x: 0.7529059, y: 0.65598273, z: 1}
+  m_LocalPosition: {x: 3.78, y: -2.57, z: 0}
+  m_LocalScale: {x: 0.54720175, y: 0.3724159, z: 1}
   m_Children: []
   m_Father: {fileID: 592521768}
   m_RootOrder: 0
@@ -1133,7 +1133,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 860705181}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -129, y: -186.5, z: 0}
+  m_LocalPosition: {x: -129, y: -195.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 513182707}
@@ -1852,7 +1852,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1894245015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -370.5, y: -186.5, z: 0}
+  m_LocalPosition: {x: -370.5, y: -195.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 926655288}
@@ -2131,9 +2131,11 @@ GameObject:
   - component: {fileID: 1989234842}
   - component: {fileID: 1989234841}
   - component: {fileID: 1989234845}
+  - component: {fileID: 1989234846}
+  - component: {fileID: 1989234847}
   m_Layer: 8
   m_Name: Monster
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2217,8 +2219,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1989234840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.23, y: 5.49, z: 0}
-  m_LocalScale: {x: 0.8726755, y: 0.34420618, z: 1}
+  m_LocalPosition: {x: -4.385, y: 4.851, z: 0}
+  m_LocalScale: {x: 0.41098252, y: 0.26738405, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -2234,15 +2236,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0190ef34d1d68454f8bdee9845fb1a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
   coinGold: {fileID: 648410890}
   residual: {fileID: 656054515}
   recyclable: {fileID: 1737991261}
   obj: 0
+  check: 0
   x: 0
   y: 0
   z: 0
   Monster: {fileID: 1989234840}
+--- !u!114 &1989234846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1989234840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801909dbd1f312c4e8857d1d170356cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mons: {fileID: 1989234840}
+--- !u!61 &1989234847
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1989234840}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.28, y: 6.44}
+    newSize: {x: 3.28, y: 6.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.28, y: 6.44}
+  m_EdgeRadius: 0
 --- !u!1 &1996763895
 GameObject:
   m_ObjectHideFlags: 0
