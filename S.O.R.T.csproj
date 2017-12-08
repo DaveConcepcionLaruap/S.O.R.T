@@ -230,6 +230,7 @@
     <Compile Include="Assets\Game Assets\Scripts\DestroyCoinOnGround.cs" />
     <Compile Include="Assets\Game Assets\Scripts\Fall.cs" />
     <Compile Include="Assets\Game Assets\Scripts\Player1Control.cs" />
+    <Compile Include="Assets\Game Assets\Scripts\Power.cs" />
     <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueTrigger.cs" />

@@ -4,51 +4,73 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class Player1Control : MonoBehaviour {
-	public float speed = 20.0f;
-	public bool idle;
-	public bool FR;
-	public bool FL;
+    public float speed = 20.0f;
+    public bool idle;
+    public bool FR;
+    public bool FL;
 
-	public Sprite sprite1; // Drag your first sprite here
-	public Sprite sprite2; // Drag your second sprite here
+    public Sprite sprite1; // Drag your first sprite here
+    public Sprite sprite2; // Drag your second sprite here
 
-	private SpriteRenderer spriteRenderer; 
+    private SpriteRenderer spriteRenderer;
 
-	public int bio;
+    public int bio;
 
-	public float directionX;
-	Rigidbody2D rb;
+    public float directionX;
+    Rigidbody2D rb;
 
-	private Animator anim;
+    
+    //throw
+    private Animator anim;
+    public GameObject thrownObject;
+    private GameObject player;
+    private CoinPickUp pickup;
 
+    void Start() {
+        spriteRenderer = GetComponent<SpriteRenderer>(); // we are accessing the SpriteRenderer that is attached to the Gameobject
+        if (spriteRenderer.sprite == null) // if the sprite on spriteRenderer is null then
+            spriteRenderer.sprite = sprite1; // set the sprite to sprite1
 
-	void Start () {
-		spriteRenderer = GetComponent<SpriteRenderer>(); // we are accessing the SpriteRenderer that is attached to the Gameobject
-		if (spriteRenderer.sprite == null) // if the sprite on spriteRenderer is null then
-			spriteRenderer.sprite = sprite1; // set the sprite to sprite1
+        rb = GetComponent<Rigidbody2D>();
+        FR = false;
+        FL = true;
+        bio = 1;
+        anim = GetComponent<Animator>();
 
-		rb = GetComponent<Rigidbody2D> ();
-		FR = false;
-		FL = true;
-		bio = 1; 
-		anim = GetComponent<Animator> ();
-	}
-		
-		
-	void Update () {
-		idle = true;
-		movement ();
-		anim.SetFloat ("Speed", Mathf.Abs(GetComponent<Rigidbody2D> ().velocity.x));
-		if (FR) {
-			//transform.localRotation.x *=-1f;
-			transform.localScale = new Vector2 (-0.6237f, 0.4803f);
-		} else {
-			//transform.localRotation.x *=1f;
-			transform.localScale = new Vector2 (0.6237f, 0.4803f);
-		}
+        player = GameObject.Find("Aegis_Standing_0");
+        pickup = (CoinPickUp)player.GetComponent(typeof(CoinPickUp));
 
 
-	}
+    }
+
+
+    void Update() {
+        idle = true;
+        movement();
+        throww();
+        anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
+        if (FR) {
+            //transform.localRotation.x *=-1f;
+            transform.localScale = new Vector2(-0.6237f, 0.4803f);
+        } else {
+            //transform.localRotation.x *=1f;
+            transform.localScale = new Vector2(0.6237f, 0.4803f);
+        }
+
+
+    }
+
+    void throww()
+    {
+        //idle = false;
+        if (Input.GetKeyDown(KeyCode.V) && (pickup.Load > 0 )){
+            anim.SetTrigger("Throw");
+            Instantiate(thrownObject, new Vector3(transform.localPosition.x, transform.localPosition.y, 0), Quaternion.identity);
+            pickup.Load--;
+
+            Debug.Log("Load left: " + pickup.Load);
+        }
+    }
 		 
 
 	void movement(){
