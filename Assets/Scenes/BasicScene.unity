@@ -402,7 +402,7 @@ RectTransform:
   m_GameObject: {fileID: 420193996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.1625028, y: 1.4436555, z: 90.00448}
-  m_LocalScale: {x: 0.031264413, y: 0.031264413, z: 0.031264413}
+  m_LocalScale: {x: 0.0314888, y: 0.0314888, z: 0.0314888}
   m_Children:
   - {fileID: 1894245016}
   - {fileID: 860705182}
@@ -1133,7 +1133,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 860705181}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -129, y: -195.5, z: 0}
+  m_LocalPosition: {x: -129, y: -194, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 513182707}
@@ -1533,7 +1533,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1274312883}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 765937411}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1274312883
@@ -1852,7 +1863,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1894245015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -370.5, y: -195.5, z: 0}
+  m_LocalPosition: {x: -370.5, y: -194, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 926655288}

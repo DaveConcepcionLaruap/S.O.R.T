@@ -52,6 +52,11 @@ public class DialogueManager : MonoBehaviour {
         StartCoroutine(TypeSentence(sentence));
     }
 
+	IEnumerator Fade (){
+		yield return new WaitForSeconds (0.8f);
+		float fadeTime = GameObject.Find ("FadeBoi").GetComponent<Fading> ().BeginFade (1);
+	}
+
     public void ShowCharacter(string sentence)
     {
         if (character2.GetBool("OpenEnemy") == false)
@@ -91,9 +96,11 @@ public class DialogueManager : MonoBehaviour {
 
     void EndDialogue()
     {
-        animator.SetBool("IsOpen", false);
-        character.SetBool("OpenKen", false);
-        character2.SetBool("OpenEnemy", false);
+        //animator.SetBool("IsOpen", false);
+        //character.SetBool("OpenKen", false);
+        //character2.SetBool("OpenEnemy", false);
+		StopAllCoroutines();
+		StartCoroutine (Fade ());
         Debug.Log("End of conversation");
     }
 

@@ -55,13 +55,15 @@
      <Compile Include="Assets\Game Assets\Scripts\DestroyCoin.cs" />
      <Compile Include="Assets\Game Assets\Scripts\DestroyCoinOnGround.cs" />
      <Compile Include="Assets\Game Assets\Scripts\Fall.cs" />
+     <Compile Include="Assets\Game Assets\Scripts\Life.cs" />
      <Compile Include="Assets\Game Assets\Scripts\move.cs" />
+     <Compile Include="Assets\Game Assets\Scripts\PewPew.cs" />
      <Compile Include="Assets\Game Assets\Scripts\Player1Control.cs" />
      <Compile Include="Assets\Game Assets\Scripts\Power.cs" />
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueTrigger.cs" />
-     <Compile Include="Assets\Life.cs" />
+     <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\Fading.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ChangeColor.cs" />
