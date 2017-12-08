@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class Player1Control : MonoBehaviour {
@@ -25,6 +26,7 @@ public class Player1Control : MonoBehaviour {
     public GameObject thrownObject;
     private GameObject player;
     private CoinPickUp pickup;
+    public Text counterLoad;
 
     void Start() {
         spriteRenderer = GetComponent<SpriteRenderer>(); // we are accessing the SpriteRenderer that is attached to the Gameobject
@@ -63,12 +65,21 @@ public class Player1Control : MonoBehaviour {
     void throww()
     {
         //idle = false;
-        if (Input.GetKeyDown(KeyCode.V) && (pickup.Load > 0 )){
-            anim.SetTrigger("Throw");
-            Instantiate(thrownObject, new Vector3(transform.localPosition.x, transform.localPosition.y, 0), Quaternion.identity);
-            pickup.Load--;
+        if (Input.GetKeyDown(KeyCode.V)){
+            if (pickup.Load > 0){
+                anim.SetTrigger("Throw");
+                Instantiate(thrownObject, new Vector3(transform.localPosition.x, transform.localPosition.y, 0), Quaternion.identity);
+                pickup.Load--;
 
-            Debug.Log("Load left: " + pickup.Load);
+                Debug.Log("Load left: " + pickup.Load);
+
+            }else{
+                Debug.Log("Please collect more, no more load to fire");
+
+
+            }
+            pickup.updateLoad();
+                
         }
     }
 		 

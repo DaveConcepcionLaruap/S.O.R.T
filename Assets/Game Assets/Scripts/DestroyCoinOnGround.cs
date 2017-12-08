@@ -9,13 +9,13 @@ public class DestroyCoinOnGround : MonoBehaviour {
     {
         
         if (other.gameObject.tag == "Gold"){
-            Debug.Log("Gold destroyed");
+            //Debug.Log("Gold destroyed");
             Destroy(other.gameObject);
         }else if (other.gameObject.tag == "Recyclable"){
-            Debug.Log("Recyclable destroyed");
+            //Debug.Log("Recyclable destroyed");
             Destroy(other.gameObject);
         }else if (other.gameObject.tag == "Residual"){
-            Debug.Log("Recyclable destroyed");
+            //Debug.Log("Recyclable destroyed");
             Destroy(other.gameObject);
         }
     }
