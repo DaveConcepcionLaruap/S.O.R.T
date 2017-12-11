@@ -15,7 +15,7 @@ public class Player1Control : MonoBehaviour {
 
     private SpriteRenderer spriteRenderer;
 
-    public int bio;
+    public int bio, type = 0;
 
     public float directionX;
     Rigidbody2D rb;
@@ -49,39 +49,39 @@ public class Player1Control : MonoBehaviour {
     void Update() {
         idle = true;
         movement();
-        throww();
+        Shoot();
         anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
         if (FR) {
             //transform.localRotation.x *=-1f;
-			transform.localScale = new Vector2(-0.4100432f, 0.3015158f);
+			transform.localScale = new Vector2(-0.5472018f, 0.3724159f);
         } else {
             //transform.localRotation.x *=1f;
-			transform.localScale = new Vector2(0.4100432f, 0.3015158f);
+			transform.localScale = new Vector2(0.5472018f, 0.3724159f);
         }
 
 
     }
 
-    void throww()
+    public void Shoot()
     {
-        //idle = false;
-        if (Input.GetKeyDown(KeyCode.V)){
-            if (pickup.Load > 0){
-                anim.SetTrigger("Throw");
-                Instantiate(thrownObject, new Vector3(transform.localPosition.x, transform.localPosition.y, 0), Quaternion.identity);
-                pickup.Load--;
+        idle = false;
+		if (Input.GetKeyDown (KeyCode.V)) {
+			if (pickup.Load > 0) {
+				anim.SetTrigger ("Throw");
+				Instantiate (thrownObject, new Vector3 (transform.localPosition.x, transform.localPosition.y, 0), Quaternion.identity);
+				pickup.Load--;
 
-                Debug.Log("Load left: " + pickup.Load);
+				Debug.Log ("Load left: " + pickup.Load);
 
-            }else{
-                Debug.Log("Please collect more, no more load to fire");
+			} else {
+				Debug.Log ("Please collect more, no more load to fire");
 
-            }
+			}
 
 
-            pickup.updateLoad();
+			pickup.updateLoad ();
+		}
                 
-        }
     }
 		 
 
@@ -124,6 +124,18 @@ public class Player1Control : MonoBehaviour {
 	
 	}
 		
+	public void SwitchType(){
+		if (type == 0) {
+			spriteRenderer.color = new Color(255, 0, 0, 1);
+			type = 1;
+		} else if (type == 1) {
+			spriteRenderer.color = new Color(0, 255, 0, 1);
+			type = 2;
+		} else if (type == 2) {
+			spriteRenderer.color = new Color(255, 255, 255, 255);
+			type = 0;
+		}
+	}
 
 	void ChangeSprite ()
 	{

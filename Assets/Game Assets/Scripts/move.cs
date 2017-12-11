@@ -16,7 +16,7 @@ public class move : MonoBehaviour {
 
 	void UpdateMovement(){
 		
-		if (this.transform.position.x > 10f) {
+		if (this.transform.position.x > 8f) {
 			MovingDirection = Vector3.left;
 			gameObject.GetComponent<SpriteRenderer> ().flipX = false;
 

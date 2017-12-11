@@ -69,6 +69,7 @@ public class CoinPickUp : MonoBehaviour {
     {
         scoreText = (Text)GameObject.Find("Score").GetComponent(typeof(Text));
         counterLoad = (Text)GameObject.Find("Load").GetComponent(typeof(Text));
+
     }
 
 

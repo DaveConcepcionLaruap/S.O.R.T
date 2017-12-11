@@ -5,10 +5,10 @@ using UnityEngine;
 public class Life : MonoBehaviour {
 	public int count = 0;
 	public GameObject mons;
-    SpriteRenderer spriteRenderer;
+	SpriteRenderer spriteRenderer;
     // Use this for initialization
     void Start () {
-        spriteRenderer = (SpriteRenderer) mons.GetComponent<Renderer>();
+		spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
     }
 	
 	// Update is called once per frame
@@ -16,8 +16,6 @@ public class Life : MonoBehaviour {
 		if (count == 4) {
 			Destroy (mons);
 		}
-
-        spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
     }
 
 	void OnTriggerEnter2D(Collider2D Col)
@@ -27,24 +25,15 @@ public class Life : MonoBehaviour {
 			count++;
 		}
 
-
-        UpdateMonsterColor();
+		StartCoroutine(Wait());
+		StopCoroutine (Wait());
 	}
 
-    void UpdateMonsterColor()
-    {
-        switch (count)
-        {
-            case 1:
-                spriteRenderer.color = new Color(0, 1, 0, 1);
-                break;
-            case 2:
-                spriteRenderer.color = new Color(255, 255, 0, 1);
-                break;
-            case 3:
-                spriteRenderer.color = new Color(255, 0, 0, 1);
-                break;
-        }
-
-    }
+	IEnumerator Wait(){
+		spriteRenderer.color = new Color(255, 0, 0, 1);
+		spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
+		yield return new WaitForSeconds (0.5f);
+		spriteRenderer.color = new Color(255, 255, 255, 255);
+		spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
+	}
 }
