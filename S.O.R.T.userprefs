@@ -1,6 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Assets\Scripts\Life.cs">
+    <Files>
+      <File FileName="Assets\Game Assets\Scripts\Life.cs" Line="43" Column="2" />
+      <File FileName="Assets\Game Assets\Scripts\Fall.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Assets\Scripts\DestroyCoinOnGround.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
