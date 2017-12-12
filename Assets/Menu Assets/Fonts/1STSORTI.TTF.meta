@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: abf22571ea82d0143bd144bbc48917fc
+timeCreated: 1513042969
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 1st Sortie
+  fontNames:
+  - 1st Sortie
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

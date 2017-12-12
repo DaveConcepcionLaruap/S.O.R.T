@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Life : MonoBehaviour {
-	public int count = 0;
-	public GameObject mons;
+	public int count = 4;
+	public GameObject mons, victoryPanel;
 	SpriteRenderer spriteRenderer;
     // Use this for initialization
     void Start () {
@@ -17,7 +17,7 @@ public class Life : MonoBehaviour {
 			Destroy (mons);
 		}
     }
-
+		
 	void OnTriggerEnter2D(Collider2D Col)
     {
         
@@ -31,9 +31,9 @@ public class Life : MonoBehaviour {
 
 	IEnumerator Wait(){
 		spriteRenderer.color = new Color(255, 0, 0, 1);
-		spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
-		yield return new WaitForSeconds (0.5f);
+		//spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
+		yield return new WaitForSeconds (0.1f);
 		spriteRenderer.color = new Color(255, 255, 255, 255);
-		spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
+		//spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
 	}
 }

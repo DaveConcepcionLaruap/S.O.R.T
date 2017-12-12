@@ -11,6 +11,9 @@ public class Fall : MonoBehaviour {
 	public int obj, check;
 	public float x, y, z;
 	public GameObject Monster;
+	public GameObject coinPF;
+	public GameObject residualPF;
+	public GameObject recyclablePF;
 
 	// Use this for initialization
 	void Start () {
@@ -30,11 +33,11 @@ public class Fall : MonoBehaviour {
 			obj = Random.Range (0, 3);
 
 			if (obj == 0) {
-				Instantiate (coinGold, new Vector3 (x, (y - 2), 0), Quaternion.identity);
+				coinGold = Instantiate (coinPF, new Vector3 (x, (y - 2), 0), Quaternion.identity);
 			} else if (obj == 1) {
-				Instantiate (residual, new Vector3 (x, (y - 2), 0), Quaternion.identity);
+				residual = Instantiate (residualPF, new Vector3 (x, (y - 2), 0), Quaternion.identity);
 			} else if (obj == 2) {
-				Instantiate (recyclable, new Vector3 (x, (y - 2), 0), Quaternion.identity);
+				recyclable = Instantiate (recyclablePF, new Vector3 (x, (y - 2), 0), Quaternion.identity);
 			}
 			int random = Random.Range (1, 4);
 			yield return new WaitForSeconds (random);

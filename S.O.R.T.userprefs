@@ -1,16 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueManager.cs">
-    <Files>
-      <File FileName="Assets\Game Assets\Scripts\Player1Control.cs" Line="25" Column="5" />
-      <File FileName="Assets\Game Assets\Scripts\PewPew.cs" Line="9" Column="1" />
-      <File FileName="Assets\Game Assets\Scripts\move.cs" Line="1" Column="1" />
-      <File FileName="Assets\Game Assets\Scripts\Fall.cs" Line="18" Column="28" />
-      <File FileName="Assets\Game Assets\Scripts\CoinPickUp.cs" Line="1" Column="1" />
-      <File FileName="Assets\Game Assets\Scripts\Power.cs" Line="7" Column="18" />
-      <File FileName="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueManager.cs" Line="52" Column="48" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

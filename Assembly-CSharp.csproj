@@ -51,11 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Destroy.cs" />
      <Compile Include="Assets\Game Assets\Scripts\CoinPickUp.cs" />
      <Compile Include="Assets\Game Assets\Scripts\DestroyCoin.cs" />
      <Compile Include="Assets\Game Assets\Scripts\DestroyCoinOnGround.cs" />
      <Compile Include="Assets\Game Assets\Scripts\Fall.cs" />
      <Compile Include="Assets\Game Assets\Scripts\Life.cs" />
+     <Compile Include="Assets\Game Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Game Assets\Scripts\move.cs" />
      <Compile Include="Assets\Game Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Game Assets\Scripts\PewPew.cs" />
@@ -65,6 +67,7 @@
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\DialogueTrigger.cs" />
      <Compile Include="Assets\Game Assets\Sprites\Cutscenes\Cutscene1\Scripts\Fading.cs" />
+     <Compile Include="Assets\get.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Menu Assets\Scripts\ChangeColor.cs" />
