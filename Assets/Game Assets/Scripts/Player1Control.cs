@@ -77,8 +77,6 @@ public class Player1Control : MonoBehaviour {
 				Debug.Log ("Please collect more, no more load to fire");
 
 			}
-
-
 			pickup.updateLoad ();
 		}
                 
@@ -125,14 +123,15 @@ public class Player1Control : MonoBehaviour {
 	}
 		
 	public void SwitchType(){
-		if (type == 0) {
-			spriteRenderer.color = new Color(255, 0, 0, 1);
+        //confusing values
+        if (type == 0) {
+			spriteRenderer.color = new Color(255, 237, 0, 255);
 			type = 1;
 		} else if (type == 1) {
-			spriteRenderer.color = new Color(0, 255, 0, 1);
+			spriteRenderer.color = new Color(255, 255, 255);
 			type = 2;
 		} else if (type == 2) {
-			spriteRenderer.color = new Color(255, 255, 255, 255);
+			spriteRenderer.color = new Color(199, 0, 255, 255);
 			type = 0;
 		}
 	}
