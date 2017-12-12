@@ -31,14 +31,13 @@ public class Life : MonoBehaviour {
 
 	IEnumerator Wait(){
 		spriteRenderer.color = new Color(255, 0, 0, 1);
-<<<<<<< HEAD
+
 		//spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
 		yield return new WaitForSeconds (0.1f);
 		spriteRenderer.color = new Color(255, 255, 255, 255);
 		//spriteRenderer = (SpriteRenderer)mons.GetComponent<Renderer>();
-=======
+
 		yield return new WaitForSeconds (0.09f);
 		spriteRenderer.color = new Color(255, 255, 255, 255);
->>>>>>> 5b5adcb2a6203d8bc99f1e7b33957ee647796750
 	}
 }
