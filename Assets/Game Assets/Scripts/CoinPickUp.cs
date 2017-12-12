@@ -10,7 +10,7 @@ public class CoinPickUp : MonoBehaviour {
     private int load;
     private Text counterLoad;
     private Text scoreText;
-    private Player1Control player;
+    private GameObject player;
 
     public int Score
     {
@@ -69,14 +69,13 @@ public class CoinPickUp : MonoBehaviour {
     {
         scoreText = (Text)GameObject.Find("Score").GetComponent(typeof(Text));
         counterLoad = (Text)GameObject.Find("Load").GetComponent(typeof(Text));
-        player =(Player1Control) GameObject.Find("Aegis_Standing_0").GetComponent(typeof(Player1Control));
 
     }
 
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Gold" && 1 == player.type ){
+        if(other.gameObject.tag == "Gold"){
             Score++;
             Load++;
             Destroy(other.gameObject);
@@ -84,7 +83,7 @@ public class CoinPickUp : MonoBehaviour {
             updateScore();
             //Debug.Log("Coin picked up, Score = " + Score);
         }
-        else if (other.gameObject.tag == "Recyclable" && 2 == player.type){
+        else if (other.gameObject.tag == "Recyclable"){
             Score++;
             Load++;
             Destroy(other.gameObject);
@@ -92,7 +91,7 @@ public class CoinPickUp : MonoBehaviour {
             updateScore();
             //Debug.Log("Recyclable picked up, Score = " + Score);
         }
-        else if (other.gameObject.tag == "Residual" && 0 == player.type){
+        else if (other.gameObject.tag == "Residual"){
             Score++;
             Load++;
             Destroy(other.gameObject);
