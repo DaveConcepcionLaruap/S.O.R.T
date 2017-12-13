@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Assets\Scripts\Life.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Assets\Scripts\Player1Control.cs">
     <Files>
-      <File FileName="Assets\Game Assets\Scripts\Life.cs" Line="43" Column="2" />
-      <File FileName="Assets\Game Assets\Scripts\Fall.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Assets\Scripts\Player1Control.cs" Line="135" Column="43" />
+      <File FileName="Assets\Game Assets\Scripts\Life.cs" Line="32" Column="21" />
       <File FileName="Assets\Game Assets\Scripts\DestroyCoinOnGround.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Assets\Scripts\CoinPickUp.cs" Line="94" Column="68" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

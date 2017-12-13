@@ -11,6 +11,10 @@ TagManager:
   - Border
   - Power
   - Monster
+  - Star 1
+  - Star 2
+  - Star 3
+  - Starter
   layers:
   - Default
   - TransparentFX
