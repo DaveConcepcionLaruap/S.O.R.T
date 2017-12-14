@@ -9,6 +9,7 @@ public class Pause : MonoBehaviour {
 	public GameObject monsterPrefab;
 	public int monsterCount;
 	public Animator anim;
+	public AudioSource shoot;
 	//SpriteRenderer spriteRenderer;
 	CoinPickUp pickup;
 	Life life;
@@ -56,6 +57,7 @@ public class Pause : MonoBehaviour {
 
 	public void Shoot (){
 		if (pickup.Load > 0) {
+			shoot.Play ();
 			Instantiate (thrownObject, new Vector3 (player.transform.localPosition.x, (player.transform.localPosition.y + 1.5f), 0), Quaternion.identity);
 			pickup.Load--;
 		}

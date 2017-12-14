@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6998700ba794cee488b397352bfd1b3d
+timeCreated: 1513245358
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Simple Slum__G
+  fontNames:
+  - Simple Slum__G
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

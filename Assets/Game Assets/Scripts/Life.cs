@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Life : MonoBehaviour {
 	public int count = 4;
-	public GameObject mons, victoryPanel;
+	public GameObject mons;
+	public AudioSource hit;
 	SpriteRenderer spriteRenderer;
     // Use this for initialization
     void Start () {
@@ -20,11 +21,10 @@ public class Life : MonoBehaviour {
 		
 	void OnTriggerEnter2D(Collider2D Col)
     {
-        
+		hit.Play ();
 		if (Col.gameObject.tag == "Power") {
 			count++;
 		}
-
 		StartCoroutine(Wait());
 		StopCoroutine (Wait());
 	}

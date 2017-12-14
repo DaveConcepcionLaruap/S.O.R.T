@@ -9,6 +9,7 @@ public class Player1Control : MonoBehaviour {
     public bool idle;
     public bool FR;
     public bool FL;
+	public AudioSource shoot;
 
     public Sprite sprite1; // Drag your first sprite here
     public Sprite sprite2; // Drag your second sprite here
@@ -68,6 +69,7 @@ public class Player1Control : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.V)) {
 			if (pickup.Load > 0) {
 				anim.SetTrigger ("Throw");
+				shoot.Play ();
 				Instantiate (thrownObject, new Vector3 (transform.localPosition.x, transform.localPosition.y, 0), Quaternion.identity);
 				pickup.Load--;
 
@@ -77,8 +79,6 @@ public class Player1Control : MonoBehaviour {
 				Debug.Log ("Please collect more, no more load to fire");
 
 			}
-
-
 			pickup.updateLoad ();
 		}
                 
