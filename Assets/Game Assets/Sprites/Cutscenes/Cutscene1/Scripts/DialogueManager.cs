@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -94,14 +95,20 @@ public class DialogueManager : MonoBehaviour {
         }
     }
 
+	IEnumerator Wait(){
+		yield return new WaitForSeconds (2);
+	}
+
     void EndDialogue()
     {
         //animator.SetBool("IsOpen", false);
         //character.SetBool("OpenKen", false);
         //character2.SetBool("OpenEnemy", false);
+		StartCoroutine(Wait());
 		StopAllCoroutines();
 		StartCoroutine (Fade ());
         Debug.Log("End of conversation");
+		SceneManager.LoadScene (7);
     }
 
 }

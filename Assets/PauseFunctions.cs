@@ -38,4 +38,9 @@ public class PauseFunctions : MonoBehaviour {
 		Time.timeScale = 1;
 		SceneManager.LoadScene (7);
 	}
+
+	//Menu
+	public void MenuButton(){
+		SceneManager.LoadScene (2);
+	}
 }
