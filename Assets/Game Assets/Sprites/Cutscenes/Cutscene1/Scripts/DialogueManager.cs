@@ -42,10 +42,11 @@ public class DialogueManager : MonoBehaviour {
         }
 
         string sentence = sentences.Dequeue();
+		/*
         if (sentence.Equals("Omae wa mo shindeiru!"))
         {
             audio.Play();
-        }
+        }*/
         ShowCharacter(sentence);
         SetName(sentence);
         StopAllCoroutines();
@@ -61,10 +62,10 @@ public class DialogueManager : MonoBehaviour {
     {
         if (character2.GetBool("OpenEnemy") == false)
         {
-            if (sentence.Equals("Nani?!?"))
+            if (sentence.Equals("Yes, Dr. Paul Rivers said so."))
             {
                 character2.SetBool("OpenEnemy", true);
-                audio2.Play();
+                //audio2.Play();
             }
         }
         
@@ -72,15 +73,14 @@ public class DialogueManager : MonoBehaviour {
 
     public void SetName(string sentence)
     {
-        if (sentence.Equals("Nani?!?") || sentence.Equals("Waddup, Kenshiro!"))
-        {
-            nameText.text = "Enemy";
-            //character2.SetBool("OpenEnemy", false);
-        }
-        else
-        {
-            nameText.text = "Kenshiro";
-        }
+		if (sentence.Equals ("Yes, Dr. Paul Rivers said so.") ||
+		    sentence.Equals ("Let's be patient and trust the Doctor.") ||
+		    sentence.Equals ("Kabayong budlat!")) {
+			nameText.text = "Gril";
+			//character2.SetBool("OpenEnemy", false);
+		} else {
+			nameText.text = "Boi";
+		}
     }
 
 
